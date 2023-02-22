@@ -19,6 +19,6 @@ server.on('connection', (socket)=>{
 
 const PORT = process.env.PORT || 3000; // en caso de que el servicio entregue puerto 
 
-server.listen(4000, ()=>{
+server.listen(PORT, ()=>{
     console.log('servidor esta escuchando en la puerta', server.address().port)
 })
